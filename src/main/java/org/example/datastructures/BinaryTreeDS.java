@@ -1,5 +1,8 @@
 package org.example.datastructures;
 
+/**
+ * <a href="https://www.youtube.com/watch?v=M6lYob8STMI&t=166">...</a>
+ */
 public class BinaryTreeDS {
 
     Node root;

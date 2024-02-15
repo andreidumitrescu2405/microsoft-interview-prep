@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c4b02c2-33dd-4141-a812-a5ab79d10a5e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/datastructures/ArrayDS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/datastructures/BinaryTreeDS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/datastructures/LinkedListDS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/datastructures/BinaryTreeDS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/datastructures/BinaryTreeDS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +24,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="2cJtjkVaoOFSdNPHKaWVWlQfY8p" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -114,11 +107,23 @@
       <updated>1707841649960</updated>
       <workItem from="1707841651345" duration="7461000" />
       <workItem from="1708005555278" duration="2979000" />
-      <workItem from="1708024367126" duration="3884000" />
+      <workItem from="1708024367126" duration="4223000" />
     </task>
+    <task id="LOCAL-00001" summary="datastructures">
+      <created>1708029880528</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708029880528</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="datastructures" />
+    <option name="LAST_COMMIT_MESSAGE" value="datastructures" />
   </component>
 </project>

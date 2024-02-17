@@ -35,6 +35,34 @@ public class BinaryTreeDS {
         }
     }
 
+    public void searchNode(int key) {
+
+        if(root == null) {
+            System.out.println("Tree doesn't have nodes");
+        } else {
+            try {
+                Node focusNode = root;
+                Node parent;
+                while (true) {
+                    parent = focusNode;
+                    if (key == focusNode.key) {
+                        System.out.println("Found desired node: " + parent);
+                        return;
+                    }
+                    if (key < focusNode.key) {
+                        focusNode = focusNode.leftChild;
+                    }
+                    if (key > focusNode.key) {
+                        focusNode = focusNode.rightChild;
+                    }
+                }
+            } catch (NullPointerException e) {
+                System.out.println("Desired node is not present in the tree");
+            }
+        }
+
+    }
+
     public void inOrderTraverseTree(Node focusNode) {
         if(focusNode != null) {
             inOrderTraverseTree(focusNode.leftChild);
@@ -42,6 +70,26 @@ public class BinaryTreeDS {
             System.out.println(focusNode);
 
             inOrderTraverseTree(focusNode.rightChild);
+        }
+    }
+
+    public void preOrderTraverseTree(Node focusNode) {
+        if(focusNode != null) {
+            System.out.println(focusNode);
+
+            preOrderTraverseTree(focusNode.leftChild);
+
+            preOrderTraverseTree(focusNode.rightChild);
+        }
+    }
+
+    public void postOrderTraverseTree(Node focusNode) {
+        if(focusNode != null) {
+            postOrderTraverseTree(focusNode.leftChild);
+
+            postOrderTraverseTree(focusNode.rightChild);
+
+            System.out.println(focusNode);
         }
     }
 
@@ -53,6 +101,11 @@ public class BinaryTreeDS {
         binaryTreeDS.addNode(30, "Secretary");
         binaryTreeDS.addNode(75, "Sales Manager");
         binaryTreeDS.addNode(85, "Salesman 1");
+
+//        binaryTreeDS.inOrderTraverseTree(binaryTreeDS.root);
+//        binaryTreeDS.preOrderTraverseTree(binaryTreeDS.root);
+//        binaryTreeDS.postOrderTraverseTree(binaryTreeDS.root);
+        binaryTreeDS.searchNode(86);
     }
 }
 

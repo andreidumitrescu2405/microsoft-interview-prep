@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c4b02c2-33dd-4141-a812-a5ab79d10a5e" name="Changes" comment="added traversal algorithms for binary tree + method for searching a specific node">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/datastructures/NAryTree.java" afterDir="false" />
+    <list default="true" id="0c4b02c2-33dd-4141-a812-a5ab79d10a5e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/datastructures/HashFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/datastructures/HashTableDS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/datastructures/LinkedListDS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/datastructures/LinkedListDS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BinaryTreeDS">
+  <component name="RunManager" selected="Application.HashFunction">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="microsoft-interview-prep" />
@@ -91,6 +91,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HashFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.datastructures.HashFunction" />
+      <module name="microsoft-interview-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.datastructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinkedListDS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.datastructures.LinkedListDS" />
       <module name="microsoft-interview-prep" />
@@ -106,6 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashFunction" />
         <item itemvalue="Application.BinaryTreeDS" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.LinkedListDS" />
@@ -125,7 +139,7 @@
       <workItem from="1708005555278" duration="2979000" />
       <workItem from="1708024367126" duration="4223000" />
       <workItem from="1708170529232" duration="3698000" />
-      <workItem from="1708256850908" duration="2403000" />
+      <workItem from="1708256850908" duration="13928000" />
     </task>
     <task id="LOCAL-00001" summary="datastructures">
       <created>1708029880528</created>
@@ -134,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708029880528</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="n-ary tree preorder and postorder traversal">
+      <created>1708259315126</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708259315126</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +164,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="datastructures" />
     <MESSAGE value="added traversal algorithms for binary tree + method for searching a specific node" />
-    <option name="LAST_COMMIT_MESSAGE" value="added traversal algorithms for binary tree + method for searching a specific node" />
+    <MESSAGE value="n-ary tree preorder and postorder traversal" />
+    <option name="LAST_COMMIT_MESSAGE" value="n-ary tree preorder and postorder traversal" />
   </component>
 </project>

@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c4b02c2-33dd-4141-a812-a5ab79d10a5e" name="Changes" comment="added traversal algorithms for binary tree + method for searching a specific node">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/datastructures/NAryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/datastructures/BinaryTreeDS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/datastructures/BinaryTreeDS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/datastructures/LinkedListDS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/datastructures/LinkedListDS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +125,7 @@
       <workItem from="1708005555278" duration="2979000" />
       <workItem from="1708024367126" duration="4223000" />
       <workItem from="1708170529232" duration="3698000" />
+      <workItem from="1708256850908" duration="2403000" />
     </task>
     <task id="LOCAL-00001" summary="datastructures">
       <created>1708029880528</created>

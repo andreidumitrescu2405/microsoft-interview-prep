@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c4b02c2-33dd-4141-a812-a5ab79d10a5e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/algorithms/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/datastructures/BinaryTreeDS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/datastructures/BinaryTreeDS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MergeSort">
+  <component name="RunManager" selected="Application.BinaryTreeDS">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="microsoft-interview-prep" />
@@ -118,10 +118,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTreeDS" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.HashFunction" />
-        <item itemvalue="Application.BinaryTreeDS" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -139,7 +139,7 @@
       <workItem from="1708024367126" duration="4223000" />
       <workItem from="1708170529232" duration="3698000" />
       <workItem from="1708256850908" duration="13928000" />
-      <workItem from="1708421705855" duration="3920000" />
+      <workItem from="1708421705855" duration="7217000" />
     </task>
     <task id="LOCAL-00001" summary="datastructures">
       <created>1708029880528</created>
@@ -162,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708429621983</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="mergesort algorithm">
+      <created>1708433319762</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708433319762</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +180,8 @@
     <MESSAGE value="added traversal algorithms for binary tree + method for searching a specific node" />
     <MESSAGE value="n-ary tree preorder and postorder traversal" />
     <MESSAGE value="binarySearch algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="binarySearch algorithm" />
+    <MESSAGE value="mergesort algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="mergesort algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
